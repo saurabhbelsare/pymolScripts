@@ -1,0 +1,9 @@
+run /Users/Saurabh/Documents/workspace/correlationAnalysis/cgo_arrow.py
+
+cgo_arrow 23/CA, 65/CA, gap=0.1
+cgo_arrow 65/CA, 54/CA, gap=0.1
+cgo_arrow 54/CA, 78/CA, gap=0.1
+cgo_arrow 78/CA, 177/CA, gap=0.1
+
+
+save /Users/Saurabh/Documents/teresaMeetings/2014/July/10thJuly2014/mapNetworksOnPDB/threshold_1.25_without252/R7-2/run1_R7-2_lig_50ns_222.pse

@@ -1,0 +1,239 @@
+inFile = open("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/degreeOfCorrelation_scaled_255_r_50_50_101.fft", 'r')
+ 
+stored.newB = []
+
+for line in inFile.readlines(): stored.newB.append( float(line) )
+ 
+inFile.close()
+ 
+alter R7-2_lig_0ns, b=0.0
+ 
+alter R7-2_lig_0ns and n. CA, b=stored.newB.pop(0)
+ 
+cmd.spectrum("b", "R7-2_lig_0ns and n. CA")
+
+cmd.save("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/R7-2_lig_run2_100ns_degreeOfCorrelation_r_50_50_101.pdb", "R7-2_lig_0ns")
+
+
+
+inFile = open("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/degreeOfCorrelation_scaled_255_r_101_50_101.fft", 'r')
+ 
+stored.newB = []
+
+for line in inFile.readlines(): stored.newB.append( float(line) )
+ 
+inFile.close()
+ 
+alter R7-2_lig_0ns, b=0.0
+ 
+alter R7-2_lig_0ns and n. CA, b=stored.newB.pop(0)
+ 
+cmd.spectrum("b", "R7-2_lig_0ns and n. CA")
+
+cmd.save("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/R7-2_lig_run2_100ns_degreeOfCorrelation_r_101_50_101.pdb", "R7-2_lig_0ns")
+
+
+
+
+inFile = open("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/degreeOfCorrelation_scaled_255_r_50_50_201.fft", 'r')
+ 
+stored.newB = []
+
+for line in inFile.readlines(): stored.newB.append( float(line) )
+ 
+inFile.close()
+ 
+alter R7-2_lig_0ns, b=0.0
+ 
+alter R7-2_lig_0ns and n. CA, b=stored.newB.pop(0)
+ 
+cmd.spectrum("b", "R7-2_lig_0ns and n. CA")
+
+cmd.save("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/R7-2_lig_run2_100ns_degreeOfCorrelation_r_50_50_201.pdb", "R7-2_lig_0ns")
+
+
+
+
+
+inFile = open("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/degreeOfCorrelation_scaled_255_r_201_50_201.fft", 'r')
+ 
+stored.newB = []
+
+for line in inFile.readlines(): stored.newB.append( float(line) )
+ 
+inFile.close()
+ 
+alter R7-2_lig_0ns, b=0.0
+ 
+alter R7-2_lig_0ns and n. CA, b=stored.newB.pop(0)
+ 
+cmd.spectrum("b", "R7-2_lig_0ns and n. CA")
+
+cmd.save("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/R7-2_lig_run2_100ns_degreeOfCorrelation_r_201_50_201.pdb", "R7-2_lig_0ns")
+
+
+
+
+
+inFile = open("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/degreeOfCorrelation_scaled_255_r_50_50_222.fft", 'r')
+ 
+stored.newB = []
+
+for line in inFile.readlines(): stored.newB.append( float(line) )
+ 
+inFile.close()
+ 
+alter R7-2_lig_0ns, b=0.0
+ 
+alter R7-2_lig_0ns and n. CA, b=stored.newB.pop(0)
+ 
+cmd.spectrum("b", "R7-2_lig_0ns and n. CA")
+
+cmd.save("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/R7-2_lig_run2_100ns_degreeOfCorrelation_r_50_50_222.pdb", "R7-2_lig_0ns")
+
+
+
+
+inFile = open("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/degreeOfCorrelation_scaled_255_r_222_50_222.fft", 'r')
+ 
+stored.newB = []
+
+for line in inFile.readlines(): stored.newB.append( float(line) )
+ 
+inFile.close()
+ 
+alter R7-2_lig_0ns, b=0.0
+ 
+alter R7-2_lig_0ns and n. CA, b=stored.newB.pop(0)
+ 
+cmd.spectrum("b", "R7-2_lig_0ns and n. CA")
+
+cmd.save("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/R7-2_lig_run2_100ns_degreeOfCorrelation_r_222_50_222.pdb", "R7-2_lig_0ns")
+
+
+
+
+
+
+inFile = open("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/degreeOfCorrelation_scaled_255_r_101_101_201.fft", 'r')
+ 
+stored.newB = []
+
+for line in inFile.readlines(): stored.newB.append( float(line) )
+ 
+inFile.close()
+ 
+alter R7-2_lig_0ns, b=0.0
+ 
+alter R7-2_lig_0ns and n. CA, b=stored.newB.pop(0)
+ 
+cmd.spectrum("b", "R7-2_lig_0ns and n. CA")
+
+cmd.save("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/R7-2_lig_run2_100ns_degreeOfCorrelation_r_101_101_201.pdb", "R7-2_lig_0ns")
+
+
+
+
+
+
+inFile = open("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/degreeOfCorrelation_scaled_255_r_201_101_201.fft", 'r')
+ 
+stored.newB = []
+
+for line in inFile.readlines(): stored.newB.append( float(line) )
+ 
+inFile.close()
+ 
+alter R7-2_lig_0ns, b=0.0
+ 
+alter R7-2_lig_0ns and n. CA, b=stored.newB.pop(0)
+ 
+cmd.spectrum("b", "R7-2_lig_0ns and n. CA")
+
+cmd.save("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/R7-2_lig_run2_100ns_degreeOfCorrelation_r_201_101_201.pdb", "R7-2_lig_0ns")
+
+
+
+
+
+
+inFile = open("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/degreeOfCorrelation_scaled_255_r_101_101_222.fft", 'r')
+ 
+stored.newB = []
+
+for line in inFile.readlines(): stored.newB.append( float(line) )
+ 
+inFile.close()
+ 
+alter R7-2_lig_0ns, b=0.0
+ 
+alter R7-2_lig_0ns and n. CA, b=stored.newB.pop(0)
+ 
+cmd.spectrum("b", "R7-2_lig_0ns and n. CA")
+
+cmd.save("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/R7-2_lig_run2_100ns_degreeOfCorrelation_r_101_101_222.pdb", "R7-2_lig_0ns")
+
+
+
+
+
+
+inFile = open("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/degreeOfCorrelation_scaled_255_r_222_101_222.fft", 'r')
+ 
+stored.newB = []
+
+for line in inFile.readlines(): stored.newB.append( float(line) )
+ 
+inFile.close()
+ 
+alter R7-2_lig_0ns, b=0.0
+ 
+alter R7-2_lig_0ns and n. CA, b=stored.newB.pop(0)
+ 
+cmd.spectrum("b", "R7-2_lig_0ns and n. CA")
+
+cmd.save("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/R7-2_lig_run2_100ns_degreeOfCorrelation_r_222_101_222.pdb", "R7-2_lig_0ns")
+
+
+
+
+
+
+
+inFile = open("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/degreeOfCorrelation_scaled_255_r_201_201_222.fft", 'r')
+ 
+stored.newB = []
+
+for line in inFile.readlines(): stored.newB.append( float(line) )
+ 
+inFile.close()
+ 
+alter R7-2_lig_0ns, b=0.0
+ 
+alter R7-2_lig_0ns and n. CA, b=stored.newB.pop(0)
+ 
+cmd.spectrum("b", "R7-2_lig_0ns and n. CA")
+
+cmd.save("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/R7-2_lig_run2_100ns_degreeOfCorrelation_r_201_201_222.pdb", "R7-2_lig_0ns")
+
+
+
+
+
+
+inFile = open("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/degreeOfCorrelation_scaled_255_r_222_201_222.fft", 'r')
+ 
+stored.newB = []
+
+for line in inFile.readlines(): stored.newB.append( float(line) )
+ 
+inFile.close()
+ 
+alter R7-2_lig_0ns, b=0.0
+ 
+alter R7-2_lig_0ns and n. CA, b=stored.newB.pop(0)
+ 
+cmd.spectrum("b", "R7-2_lig_0ns and n. CA")
+
+cmd.save("/Users/Saurabh/workFiles/KE07/pdbStructure_degCorr_coloring/100ns/KE07_lig/run_2/constantScaling/R7-2/R7-2_lig_run2_100ns_degreeOfCorrelation_r_222_201_222.pdb", "R7-2_lig_0ns")
+
