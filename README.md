@@ -12,4 +12,4 @@ figures.
 * Download and run with pymol (https://www.pymol.org/)
 
 ## Who do I talk to? ##
-* Saurabh Belsare (smbelsare@gmail.com)
+* Saurabh Belsare (saurabhmbelsare@gmail.com)
